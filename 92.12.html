@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Engineering Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #0078d7;
+      color: #fff;
+      padding: 2rem 1rem;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .service-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 1rem;
+      padding: 1.5rem;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .details-btn {
+      background-color: #0078d7;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    .details-btn:hover {
+      background-color: #005bb5;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>My Services</h1>
+    <p>Explore the services I offer as an engineering student.</p>
+  </header>
+  
+  <section class="services">
+    <div class="service-card" id="card1">
+      <h2>Project Assistance</h2>
+      <p>Help with engineering projects, documentation, and implementation.</p>
+      <button class="details-btn" onclick="showDetails('card1')">Learn More</button>
+    </div>
+    <div class="service-card" id="card2">
+      <h2>Tutoring</h2>
+      <p>One-on-one tutoring in basic engineering subjects like mechanics, electronics, etc.</p>
+      <button class="details-btn" onclick="showDetails('card2')">Learn More</button>
+    </div>
+    <div class="service-card" id="card3">
+      <h2>Research Assistance</h2>
+      <p>Support in conducting and documenting research papers or technical articles.</p>
+      <button class="details-btn" onclick="showDetails('card3')">Learn More</button>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>© 2024 Engineering Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showDetails(cardId) {
+      const card = document.getElementById(cardId);
+      alert(`More information about "${card.querySelector('h2').innerText}" will be provided soon!`);
+    }
+  </script>
+</body>
+</html>

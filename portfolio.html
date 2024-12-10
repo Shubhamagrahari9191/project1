@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 30);
+            color: white;
+            font-family: 'popins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(25, 25, 100);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.05rem;
+            color: rgb(73, 73, 119);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: 130px 0;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+
+
+        }
+
+        main hr {
+            border 0;
+            Background: gray;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+
+        .text-gray {
+            color: #9c97f1;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .SecondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .SecondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .SecondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .SecondSection .vertical {
+            background-color: white;
+            height: 93px;
+            width: 1px;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer.footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+
+        }
+
+        .leftSection.buttons {
+            padding: 50px 0px;
+        }
+
+        .leftSection .btn {
+            text-decoration: none;
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shubham's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="portfolio.html" target="_self">Home</a></li>
+                    <li><a href="9.12.html" target="_self">About me</a></li>
+                    <li><a href="92.12.html" target="_self">Services</a></li>
+                    <li><a href="https://github.com/Shubhamagrahari9191" target="_blank">Projects</a></li>
+                    <li><a href="93.12.html">Contact Me</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+</body>
+<header>
+</header>
+<main>
+    <section class="firstSection">
+        <div class="leftSection">
+            Hi i am <span class="purple"> Shubham Agrahari</span>
+
+            <div>and also a web developer</div>
+            <span id="element"></span>
+            <div class="buttons">
+               <a href="reume 2.pdf" target="_blank" class="btn">Download Resume</a> 
+                <a href="https://github.com/Shubhamagrahari9191" class="btn" target="_blank">Visit Github</a>
+
+
+            </div>
+        </div>
+
+        <div class="rightSection"> <img src="portfolio png.png" alt=""></div>
+    </section>
+    <hr>
+    <section class="SecondSection">
+        <span class=" text-gray">What I have done So far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer
+                    (2027)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum .
+                </div>
+            </div>
+            <div class="vertical">
+
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    HTML<br>
+                    (2026)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum .
+                </div>
+
+
+
+
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer
+                    (2025)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum .
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer
+                    (2024)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum .
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer
+                    (2033)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum .
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer
+                    (2028)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum .
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="first">
+            <h3>Shubham's Developer Portfolio</h3>
+        </div>
+        <div class="second">
+            <ul>
+                <li>home</li>
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+
+            </ul>
+
+        </div>
+        <div class="third">
+            <ul>
+                <li>home</li>
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+
+            </ul>
+        </div>
+        <div class="fourth">
+            <ul>
+                <li>home</li>
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class=" footer-rights">
+       <center> Copyright &#169; www.shubhamportfolio.com| All rights are reserved</center> 
+    </div>
+</footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+        typeSpeed: 50,
+    });
+</script>
+
+
+</body>
+
+</html>
